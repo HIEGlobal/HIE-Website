@@ -105,14 +105,8 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right Side: Fast-Paced Shape Morphism Animation */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          {/* Right Side: Shape Morphism Animation (Hidden on mobile phones) */}
+          <div className="hero-mosaic-wrapper hidden md:flex justify-center items-center">
             <HeroMosaic />
           </div>
         </div>

@@ -277,6 +277,12 @@ button {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-mosaic-wrapper {
+    display: none !important;
+  }
+}
+
 @media (max-width: 868px) {
   .desktop-nav {
     display: none !important;
